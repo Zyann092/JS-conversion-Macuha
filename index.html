@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <script defer src="script/main.js"></script>
+
+    <section>
+        <div class="converter">
+            <div class="title">Currency Converter</div>
+            
+            <div class="container">
+                <input type="number" id="input" name="input" placeholder="Input">
+                <div class="options-container">
+                    <select name="inputType" id="inputType">
+                        <option value="peso">Philippine Peso</option>
+                        <option value="dollar">US Dollar</option>
+                        <option value="yen">Japanese Yen</option>
+                        <option value="riyal">Qatari Riyal</option>
+                    </select>
+                </div>
+
+                <span class="material-symbols-outlined">
+                    swap_vert
+                </span>
+
+                <input type="number" id="result" name="result" placeholder="Result">
+                <div class="options-container"></div>
+                    <select name="resultType" id="resultType">
+                        <option value="peso">Philippine Peso</option>
+                        <option value="dollar">US Dollar</option>
+                        <option value="yen">Japanese Yen</option>
+                        <option value="riyal">Qatari Riyal</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
